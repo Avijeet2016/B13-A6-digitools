@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Basic resume builder with essential templates for beginners.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic editing tools",
+      "Download as PDF"
+    ],
+    "icon": "https://i.ibb.co.com/ynWVWnLZ/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization and premium templates.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "https://i.ibb.co.com/TMKNkm02/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Package",
+    "description": "Complete career toolkit including resume, cover letter, and portfolio builder.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited templates",
+      "ATS optimization",
+      "Portfolio builder",
+      "LinkedIn optimizer"
+    ],
+    "icon": "https://i.ibb.co.com/XfdSw5K8/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Freelancer Kit",
+    "description": "Tools designed for freelancers to create proposals and resumes.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Proposal templates",
+      "Client management",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/k2RVZPx1/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "Enterprise Hiring Suite",
+    "description": "Advanced hiring solution for companies to manage candidates.",
+    "price": 199,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Candidate tracking",
+      "Resume filtering",
+      "Team collaboration",
+      "Analytics dashboard"
+    ],
+    "icon": "https://i.ibb.co.com/CpkM1bwn/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Portfolio Builder",
+    "description": "Create professional portfolios to showcase your work.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Custom layouts",
+      "Image galleries",
+      "SEO optimization"
+    ],
+    "icon": "https://i.ibb.co.com/ynWVWnLZ/design-tool.png"
+  },
+  {
+    "id": 7,
+    "name": "Interview Prep Toolkit",
+    "description": "Prepare for interviews with AI-driven mock sessions.",
+    "price": 30,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Mock interviews",
+      "Question bank",
+      "Performance feedback"
+    ],
+    "icon": "https://i.ibb.co.com/TMKNkm02/operation.png"
+  },
+  {
+    "id": 8,
+    "name": "Job Tracker Pro",
+    "description": "Track job applications and manage your job search efficiently.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Deadline reminders",
+      "Status updates"
+    ],
+    "icon": "https://i.ibb.co.com/XfdSw5K8/portfolio.png"
+  },
+  {
+    "id": 9,
+    "name": "LinkedIn Growth Tool",
+    "description": "Optimize and grow your LinkedIn profile for better reach.",
+    "price": 50,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Profile analysis",
+      "Keyword optimization",
+      "Content suggestions"
+    ],
+    "icon": "https://i.ibb.co.com/k2RVZPx1/social-media.png"
+  }
+]
