@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Pricing from './components/Pricing';
 import Stats from './components/Stats';
 import Steps from './components/Steps';
+import Transform from './components/Transform';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Stats></Stats>
       <Steps></Steps>
       <Pricing></Pricing>
+      <Transform></Transform>
     </>
   );
 }
