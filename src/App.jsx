@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Pricing from './components/Pricing';
 import Stats from './components/Stats';
 import Steps from './components/Steps';
+import Tab from './components/Tab';
 import Transform from './components/Transform';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <Tab></Tab>
       <Stats></Stats>
       <Steps></Steps>
       <Pricing></Pricing>
