@@ -3,7 +3,7 @@ import cartImg from '../assets/products/shopping-cart.png';
 
 const Navbar = () => {
     return (
-      <div className="shadow-sm sticky top-0 bg-white">
+      <div className="shadow-sm sticky top-0 bg-white z-50">
         <div className="max-w-300 mx-auto flex justify-between items-center py-6">
           <div>
             {/* <h1 className='text-3xl font-bold'>DigiTools</h1> */}
