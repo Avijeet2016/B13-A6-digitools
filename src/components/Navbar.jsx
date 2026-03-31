@@ -48,7 +48,7 @@ const Navbar = ({cart}) => {
           </div>
           <div className="flex items-center gap-4">
             <button className='relative'>
-              <span className='px-1.5 py-0.1 bg-red-500 text-white rounded-full absolute -top-5'>{cart.length}</span>
+              <span className='px-1.5 py-0.1 bg-red-500 text-white rounded-full absolute -top-5'>{cart.length? cart.length: ""}</span>
               <img src={cartImg} alt="Cart Image" />
             </button>
             <p className="font-semibold">Login</p>
