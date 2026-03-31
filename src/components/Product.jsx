@@ -15,7 +15,7 @@ const Product = ({product, cart, setCart}) => {
 
     const handleBuy = (product) => {
         setIsBought(true);
-        console.log(product);
+        
         const isFound = cart.find(c => c.id === product.id);
         if(isFound) {
             toast.warning("Product already in cart");
