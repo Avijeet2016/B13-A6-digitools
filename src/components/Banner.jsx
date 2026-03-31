@@ -4,7 +4,7 @@ import { Triangle } from "lucide-react";
 
 const Banner = () => {
     return (
-      <div className="max-w-300 mx-auto py-15 flex justify-center items-center gap-15">
+      <div className="max-w-300 mx-auto py-15 flex justify-between items-center gap-15">
         <div className="space-y-8">
           <div className="bg-[#E1E7FF] inline-block px-3 py-1 rounded-full">
             <span className="bg-linear-to-r from-[#622EF7] to-[#9216FA] bg-clip-text text-transparent font-bold rounded-full">

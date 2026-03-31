@@ -22,25 +22,25 @@ const Pricing = () => {
             </div>
             <div>
               <ul>
-                <li className="text-[#627382]">
+                <li className="text-[#627382] flex items-center gap-2">
                   <i className="fa-solid fa-check text-[#30b868]"></i> Access to
                   10 free tools
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> Basic
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> Basic
                   templates
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> Community
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> Community
                   support
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> 1 project per
-                  month
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> 1 project
+                  per month
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> Perfect for
-                  getting started
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> Perfect
+                  for getting started
                 </li>
               </ul>
             </div>
@@ -67,26 +67,27 @@ const Pricing = () => {
             </div>
             <div>
               <ul className="text-white">
-                <li className="">
+                <li className="flex items-center gap-2">
                   <i className="fa-solid fa-check text-white"></i> Access to all
                   premium tools
                 </li>
-                <li className="">
-                  <i class="fa-solid fa-check text-white"></i> Unlimited
+                <li className="flex items-center gap-2">
+                  <i className="fa-solid fa-check text-white"></i> Unlimited
                   templates
                 </li>
-                <li className="">
-                  <i class="fa-solid fa-check text-white"></i> Priority support
+                <li className="flex items-center gap-2">
+                  <i className="fa-solid fa-check text-white"></i> Priority
+                  support
                 </li>
-                <li className="">
-                  <i class="fa-solid fa-check text-white"></i> Cloud sync
+                <li className="flex items-center gap-2">
+                  <i className="fa-solid fa-check text-white"></i> Cloud sync
                 </li>
-                <li className="">
-                  <i class="fa-solid fa-check text-white"></i> Advanced
+                <li className="flex items-center gap-2">
+                  <i className="fa-solid fa-check text-white"></i> Advanced
                   analytics
                 </li>
-                <li className="">
-                  <i class="fa-solid fa-check text-white"></i> Perfect for
+                <li className="flex items-center gap-2">
+                  <i className="fa-solid fa-check text-white"></i> Perfect for
                   getting started
                 </li>
               </ul>
@@ -112,27 +113,28 @@ const Pricing = () => {
             </div>
             <div>
               <ul>
-                <li className="text-[#627382]">
-                  <i className="fa-solid fa-check text-[#30b868]"></i>{" "}
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i>
                   Everything in Pro
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> Team
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> Team
                   collaboration
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> Custom
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> Custom
                   integrations
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> Dedicated
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> Dedicated
                   support
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> SLA guarantee
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> SLA
+                  guarantee
                 </li>
-                <li className="text-[#627382]">
-                  <i class="fa-solid fa-check text-[#30b868]"></i> Custom
+                <li className="text-[#627382] flex items-center gap-2">
+                  <i className="fa-solid fa-check text-[#30b868]"></i> Custom
                   branding
                 </li>
               </ul>

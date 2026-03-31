@@ -44,14 +44,14 @@ const Footer = () => {
               <h3 className="font-bold text-xl mb-4">Social Links</h3>
               <div className="flex justify-center items-center gap-3">
                 <button className="bg-white w-10 h-10 rounded-full flex justify-center items-center">
-                  <i class="fa-brands fa-instagram text-black text-xl"></i>
+                  <i className="fa-brands fa-instagram text-black text-xl"></i>
                 </button>
 
                 <button className="bg-white w-10 h-10 rounded-full flex justify-center items-center">
-                  <i class="fa-brands fa-square-facebook text-black text-xl"></i>
+                  <i className="fa-brands fa-square-facebook text-black text-xl"></i>
                 </button>
                 <button className="bg-white w-10 h-10 rounded-full flex justify-center items-center">
-                  <i class="fa-brands fa-x-twitter text-black text-xl"></i>
+                  <i className="fa-brands fa-x-twitter text-black text-xl"></i>
                 </button>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import cartImg from '../assets/products/shopping-cart.png';
 
-const Navbar = () => {
+const Navbar = ({cart}) => {
     return (
       <div className="shadow-sm sticky top-0 bg-white z-50">
         <div className="max-w-300 mx-auto flex justify-between items-center py-6">
@@ -47,7 +47,8 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex items-center gap-4">
-            <button>
+            <button className='relative'>
+              <span className='px-1.5 py-0.1 bg-red-500 text-white rounded-full absolute -top-5'>{cart.length}</span>
               <img src={cartImg} alt="Cart Image" />
             </button>
             <p className="font-semibold">Login</p>

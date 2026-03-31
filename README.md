@@ -11,6 +11,6 @@ Welcome to DigiTools, the ultimate marketplace for AI solutions. Our platform of
 - JSON (for product data)
 
 ## Features:
-- Centralized access to top AI tools
+- Centralized access to top AI tools-
 - User-friendly interface for seamless navigation
 - Tools categorized by productivity, design, analytics, and automation

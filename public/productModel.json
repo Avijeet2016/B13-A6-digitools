@@ -25,8 +25,7 @@
     "features": [
       "100+ templates",
       "ATS optimization",
-      "Export to PDF",
-      "Cover letter builder"
+      "Export to PDF"
     ],
     "icon": "https://i.ibb.co.com/TMKNkm02/operation.png"
   },
@@ -41,8 +40,7 @@
     "features": [
       "Unlimited templates",
       "ATS optimization",
-      "Portfolio builder",
-      "LinkedIn optimizer"
+      "Portfolio builder"
     ],
     "icon": "https://i.ibb.co.com/XfdSw5K8/portfolio.png"
   },
@@ -72,8 +70,7 @@
     "features": [
       "Candidate tracking",
       "Resume filtering",
-      "Team collaboration",
-      "Analytics dashboard"
+      "Team collaboration"
     ],
     "icon": "https://i.ibb.co.com/CpkM1bwn/writing-2327400-1.png"
   },
@@ -138,3 +135,4 @@
     "icon": "https://i.ibb.co.com/k2RVZPx1/social-media.png"
   }
 ]
+
