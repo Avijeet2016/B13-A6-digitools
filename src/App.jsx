@@ -27,8 +27,8 @@ function App() {
   return (
     <>
       <Navbar cart={cart}></Navbar>
-      {/* <Banner></Banner>
-      <Tab tab={tab} setTab={setTab} cart={cart}></Tab>
+      <Banner></Banner>
+      {/* <Tab tab={tab} setTab={setTab} cart={cart}></Tab>
       <Suspense
         fallback={
           <div className='flex justify-center items-center'>

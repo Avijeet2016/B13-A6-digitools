@@ -4,26 +4,28 @@ import { Triangle } from "lucide-react";
 
 const Banner = () => {
     return (
-      <div className="max-w-300 mx-auto py-15 flex justify-between items-center gap-15">
+      <div className="flex flex-col-reverse max-w-300 mx-auto py-15 md:flex-row md:justify-between md:items-center gap-15">
         <div className="space-y-8">
-          <div className="bg-[#E1E7FF] inline-block px-3 py-1 rounded-full">
-            <span className="bg-linear-to-r from-[#622EF7] to-[#9216FA] bg-clip-text text-transparent font-bold rounded-full">
-              <i className="fa-regular fa-circle-dot text-transparent bg-linear-to-r from-[#622EF7] to-[#9216FA] bg-clip-text"></i>
-              &nbsp; New: AI-Powered Tools Available
-            </span>
+          <div className='flex justify-center items-center md:justify-start'>
+            <div className="flex justify-center  items-center w-100  bg-[#E1E7FF] text-center lg:text-left px-3 py-1 rounded-full">
+              <span className="bg-linear-to-r from-[#622EF7] to-[#9216FA] bg-clip-text text-transparent font-bold rounded-full">
+                <i className="fa-regular fa-circle-dot text-transparent bg-linear-to-r from-[#622EF7] to-[#9216FA] bg-clip-text"></i>
+                &nbsp; New: AI-Powered Tools Available
+              </span>
+            </div>
           </div>
 
-          <h1 className="font-bold text-6xl">
+          <h1 className="text-center text-2xl md:text-start font-bold lg:text-6xl">
             Supercharge Your
             <br /> Digital Workflow
           </h1>
-          <p className="text-[#627382]">
+          <p className="text-[#627382] text-center md:text-left">
             Access premium AI tools, design assets, templates, and productivity
             <br />
             software—all in one place. Start creating faster today.
             <br /> Explore Products
           </p>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 justify-center md:justify-start">
             <button className="bg-linear-to-r from-[#622EF7] to-[#9216FA] rounded-full px-4 py-3 text-white font-bold">
               Explore Products
             </button>
@@ -58,8 +60,8 @@ const Banner = () => {
             </button>
           </div>
         </div>
-        <div>
-          <img src={bannerImg} alt="banner image" />
+        <div className='mx-auto md:mx-0'>
+          <img src={bannerImg} alt="banner image"/>
         </div>
       </div>
     );
