@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Navbar cart={cart}></Navbar>
-      <Banner></Banner>
+      {/* <Banner></Banner>
       <Tab tab={tab} setTab={setTab} cart={cart}></Tab>
       <Suspense
         fallback={
@@ -45,7 +45,7 @@ function App() {
       <Steps></Steps>
       <Pricing></Pricing>
       <Transform></Transform>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </>
   );
 }
