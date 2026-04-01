@@ -4,12 +4,12 @@ const Pricing = () => {
     return (
       <div className="max-w-300 mx-auto py-30">
         <div className="space-y-4 mb-10 text-center">
-          <h1 className="text-5xl font-bold">Simple, Transparent Pricing</h1>
+          <h1 className="text-3xl md:text-5xl font-bold">Simple, Transparent Pricing</h1>
           <p className="text-[#627382]">
             Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-7">
+        <div className="grid md:grid-cols-3 gap-7 px-5 md:px-0">
           {/* price card-1  */}
           <div className="bg-[#f9fafc] space-y-6 p-6 rounded-2xl shadow-sm">
             <div>

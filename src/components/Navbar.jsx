@@ -46,7 +46,7 @@ const Navbar = ({cart}) => {
             </div>
             <div>
               <ul
-                className={`lg:hidden px-10 mx-5 py-3 font-bold text-lg border-b-2 bg-gray-400 rounded-lg absolute ${open ? "top-15  " : "-top-70"} duration-1000`}
+                className={`lg:hidden px-10 mx-5 py-3 font-bold text-lg border-b-2 bg-gray-300 rounded-lg absolute ${open ? "top-15  " : "-top-70"} duration-1000`}
                 
               >
                 <li>Products</li>

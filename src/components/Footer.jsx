@@ -4,17 +4,17 @@ const Footer = () => {
     return (
       <div className="bg-black">
         <div className="max-w-300 mx-auto pt-30 pb-5">
-          <div className="flex justify-between items-start mb-20 text-white">
-            <div className=" space-y-4">
+          <div className="flex flex-col gap-5 md:flex-row justify-between items-center md:items-start md:gap-0 mb-20 text-white">
+            <div className="space-y-4 text-center md:text-left">
               <h1 className="text-3xl font-bold ">DigiTools</h1>
-              <p className="">
+              <p>
                 Premium digital tools for creators,
                 <br /> professionals, and businesses. Work smarter
                 <br /> with our suite of powerful tools.
               </p>
             </div>
-            <div>
-              <h3 className="font-bold text-xl mb-4">Product</h3>
+            <div className="text-center md:text-left">
+              <h3 className=" font-bold text-xl mb-4">Product</h3>
               <ul className="space-y-4">
                 <li>Features</li>
                 <li>Pricing</li>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <li>Integrations</li>
               </ul>
             </div>
-            <div>
+            <div className="text-center md:text-left">
               <h3 className="font-bold text-xl mb-4">Company</h3>
               <ul className="space-y-4">
                 <li>About</li>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <li>Press</li>
               </ul>
             </div>
-            <div>
+            <div className="text-center md:text-left">
               <h3 className="font-bold text-xl mb-4">Resources</h3>
               <ul className="space-y-4">
                 <li>Documentation</li>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <li>Contact</li>
               </ul>
             </div>
-            <div>
+            <div className="text-center md:text-left">
               <h3 className="font-bold text-xl mb-4">Social Links</h3>
               <div className="flex justify-center items-center gap-3">
                 <button className="bg-white w-10 h-10 rounded-full flex justify-center items-center">
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
           <hr className="border-t-[0.5px] border-gray-700 mb-4" />
-          <div className="flex justify-between items-center text-[#7F838A]">
+          <div className="flex flex-col gap-5 md:gap-0 md:flex-row justify-between items-center text-[#7F838A]">
             <p className="">©2026 DigiTools. All rights reserved.</p>
             <div>
               <ul className="flex justify-center items-center gap-10">

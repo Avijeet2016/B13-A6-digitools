@@ -16,8 +16,6 @@ const getProducts = async () => {
   return res.json();
 }
 
-
-
 function App() {
   const [tab, setTab] = useState("products");
   
@@ -27,8 +25,8 @@ function App() {
   return (
     <>
       <Navbar cart={cart}></Navbar>
-      {/* <Banner></Banner> */}
-      {/* <Tab tab={tab} setTab={setTab} cart={cart}></Tab>
+      <Banner></Banner>
+      <Tab tab={tab} setTab={setTab} cart={cart}></Tab>
       <Suspense
         fallback={
           <div className='flex justify-center items-center'>
@@ -40,9 +38,9 @@ function App() {
           <Products productsPromise={productsPromise} cart={cart} setCart={setCart}></Products>
         )}
       </Suspense>
-      {tab === "cart" && <Cart cart={cart} setCart={setCart}></Cart>} */}
-      {/* <Stats></Stats> */}
-      {/* <Steps></Steps> */}
+      {tab === "cart" && <Cart cart={cart} setCart={setCart}></Cart>}
+      <Stats></Stats>
+      <Steps></Steps>
       <Pricing></Pricing>
       <Transform></Transform>
       <Footer></Footer>
