@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Navbar cart={cart}></Navbar>
-      <Banner></Banner>
+      {/* <Banner></Banner> */}
       {/* <Tab tab={tab} setTab={setTab} cart={cart}></Tab>
       <Suspense
         fallback={
@@ -40,12 +40,12 @@ function App() {
           <Products productsPromise={productsPromise} cart={cart} setCart={setCart}></Products>
         )}
       </Suspense>
-      {tab === "cart" && <Cart cart={cart} setCart={setCart}></Cart>}
-      <Stats></Stats>
-      <Steps></Steps>
+      {tab === "cart" && <Cart cart={cart} setCart={setCart}></Cart>} */}
+      {/* <Stats></Stats> */}
+      {/* <Steps></Steps> */}
       <Pricing></Pricing>
       <Transform></Transform>
-      <Footer></Footer> */}
+      <Footer></Footer>
     </>
   );
 }

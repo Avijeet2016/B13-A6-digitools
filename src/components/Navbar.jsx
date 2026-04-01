@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 
 const Navbar = ({cart}) => {
   const [open, setOpen] = useState(false);
-  console.log(open);
+  
     return (
       <div className="shadow-sm sticky top-0 bg-white z-50">
         <div className="max-w-300 mx-auto flex justify-between items-center py-6">
